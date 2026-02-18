@@ -22,6 +22,6 @@ public class MaxNumber {
             max = Math.max(ele, max);
         }
 
-        System.out.println("Max number is: " + max);
+        System.out.println("Maximum number is: " + max);
     }
 }
