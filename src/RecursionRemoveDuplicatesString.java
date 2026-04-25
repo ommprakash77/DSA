@@ -17,7 +17,7 @@ public class RecursionRemoveDuplicatesString {
     }
 
     public static void main(String[] args) {
-        String str="abbccda";
+        String str="bbbccda";
         removeDuplicates(str,0,"");
     }
 }
