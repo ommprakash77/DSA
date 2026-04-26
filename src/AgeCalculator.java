@@ -14,7 +14,7 @@ public class AgeCalculator {
 
             System.out.println("Your age is: " + age);
 
-            sc.close();
+
         }
     }
 
