@@ -15,7 +15,7 @@ public class RecursionPrintKeypadCombination {
     }
 
     public static void main(String[] args) {
-        String str="23";
+        String str="254";
         printcomb(str,0," ");
     }
 }
