@@ -33,7 +33,7 @@ public class StudentPerformance {
         subject6SSC = sc.nextInt();
 
         totalmarks = subject1MIL + subject2ENG + subject3TLH + subject4GSC + subject5MATH + subject6SSC;
-        aggregatepercentage = totalmarks / 6;
+        aggregatepercentage = (totalmarks /(6*100))*100;
 
         System.out.println("\n------ STUDENT PERFORMANCE ------\n");
         System.out.println("Name: " + yourname);

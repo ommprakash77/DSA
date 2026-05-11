@@ -24,10 +24,10 @@ public class YourBioData {
             email = sc.nextLine();
 
             System.out.print("Enter your age: ");
-            age = Integer.parseInt(sc.nextLine());
+            age = sc.nextInt();
 
             System.out.print("Enter your phone number: ");
-            phoneNumber = Long.parseLong(sc.nextLine());
+            phoneNumber = sc.nextLong();
 
             System.out.println("\n------ YOUR BIO DATA ------");
             System.out.println("Your Name: " + yourname);
