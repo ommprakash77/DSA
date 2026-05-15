@@ -5,14 +5,15 @@ public class AgeCalculator {
 
             Scanner sc = new Scanner(System.in);
 
+            System.out.println("Enter the currentyear:");
+            int currentyear=sc.nextInt();
+
             System.out.print("Enter birth year: ");
             int birthYear = sc.nextInt();
 
-            int currentYear = 2026; // manually set (easy version)
+            int age =currentyear - birthYear;
 
-            int age = currentYear - birthYear;
-
-            System.out.println("Your age is: " + age);
+            System.out.println("Your age is: " +age);
 
 
         }

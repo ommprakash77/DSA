@@ -1,5 +1,5 @@
 public class RecursionSubsequencesString {
-    public static void subsequences(String str,int idx,String newString) {
+    public static void subsequences(String str, int idx, String newString) {
         if (idx == str.length()) {
             System.out.println(newString);
             return;
@@ -12,8 +12,8 @@ public class RecursionSubsequencesString {
     }
 
     public static void main(String[] args) {
-        String str="ab";
-        subsequences(str,0," ");
+        String str = "ab";
+        subsequences(str, 0, " ");
     }
-    }
+}
 
