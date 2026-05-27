@@ -18,7 +18,7 @@ public class SimpleCalculator {
         if (operator == '+') {
             System.out.println("Result=" + (a + b));
     }else if(operator == '-') {
-            System.out.println("Result=" + (a - b));
+            System.out.println("Result="  +(a - b));
         }else if(operator =='*') {
             System.out.println("Result=" + (a * b));
         }else if(operator =='/') {
