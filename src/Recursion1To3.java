@@ -7,7 +7,7 @@ public class Recursion1To3 {
         }
     }
     public static void main(String[] args) {
-        printNum(1);
+        printNum(0);
 
     }
 }
