@@ -16,6 +16,6 @@ public class SumOf3Numbers {
 
         sum=a+b+c;
 
-        System.out.print("sum of Digits: "+sum);
+        System.out.print("sum of Numbers: "+sum);
     }
 }

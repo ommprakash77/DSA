@@ -1,5 +1,5 @@
 import java.util.*;
-public class SeniorLeapyear {
+public class leapyear {
 
         public static void main(String[] args) {
 
@@ -10,7 +10,7 @@ public class SeniorLeapyear {
             System.out.print("Enter a year: ");
             year = sc.nextInt();
 
-            if(year % 4 == 0) {
+            if(year % 4 == 0 || year % 400==0 && year %100!=0) {
                 System.out.println("Leap Year");
             } else {
                 System.out.println("Not a Leap Year");
