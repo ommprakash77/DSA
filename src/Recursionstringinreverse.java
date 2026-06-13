@@ -8,11 +8,11 @@ public class Recursionstringinreverse {
         }
 
         System.out.print(str.charAt(idx));
-        printRev(str, idx - 1);
+        printRev(str,idx - 1);
     }
 
         public static void main(String args[]){
-            String str="abcd";
+            String str="OMM";
             printRev(str,str.length()-1);
         }
 
