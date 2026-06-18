@@ -4,8 +4,8 @@ public class Recursionfindoccurance {
 
     public static void findoccurance(String str,int idx,char element) {
         if (idx == str.length()) {
-            System.out.println(first);
-            System.out.println(last);
+            System.out.println("first="+first);
+            System.out.println("last="+last);
             return;
         }
         char currchar = str.charAt(idx);
@@ -20,7 +20,7 @@ public class Recursionfindoccurance {
     }
 
     public static void main(String[] args) {
-        String str="abaacdaefaah";
+        String str="abaa";
         findoccurance(str,0,'a');
     }
 

@@ -1,5 +1,5 @@
 public class Recursionsortedarray {
-    public static boolean issorted(int arr[], int idx) {
+    public static boolean issorted(int []arr, int idx) {
         if (idx == arr.length-1) {
             return true;
         }
@@ -10,7 +10,7 @@ public class Recursionsortedarray {
             }
         }
         public static void main (String[]args){
-            int arr[] = {1, 3, 5};
+            int []arr = {1, 3, 5};
             System.out.println(issorted(arr, 0));
 
         }
