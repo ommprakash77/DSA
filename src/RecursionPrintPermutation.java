@@ -15,7 +15,7 @@ public class RecursionPrintPermutation {
     }
 
         public static void main(String[]args){
-            String str="abc";
+            String str="ac";
             printpermutation(str," ");
 
         }
