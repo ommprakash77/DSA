@@ -17,7 +17,7 @@ public class PlaceTiles {
     }
 
         public static void main(String[]args){
-            int n=3,m=3;
+            int n=4,m=2;
             System.out.println(placeTiles(n,m));
         }
     }
