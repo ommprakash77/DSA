@@ -1,7 +1,7 @@
 public class CallGuests {
     public static int callGuests(int n) {
 
-        if(n<=1){
+        if(n<1){
             return 1;
         }
         int ways1 = callGuests(n - 1);
