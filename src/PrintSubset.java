@@ -12,10 +12,10 @@ public class PrintSubset {
             return;
 
         }
-        findsubsets(n-1,subset);
         subset.add(n);
         findsubsets(n-1,subset);
         subset.remove(subset.size()-1);
+        findsubsets(n-1,subset);
     }
 
     public static void main(String[] args) {
