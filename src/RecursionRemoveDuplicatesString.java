@@ -7,7 +7,7 @@ public class RecursionRemoveDuplicatesString {
             return ;
         }
         char currchar=str.charAt(idx);
-        if(map[currchar-'a']) {
+        if(map[currchar-'a']){
             removeDuplicates(str, idx + 1, newString);
         }else{
             newString+=currchar;
