@@ -12,7 +12,7 @@ public class RecursionSubsequencesString {
     }
 
     public static void main(String[] args) {
-        String str = "ab";
+        String str = "abc";
         subsequences(str, 0, " ");
     }
 }
