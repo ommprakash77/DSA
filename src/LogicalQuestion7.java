@@ -1,10 +1,10 @@
 public class LogicalQuestion7 {
     public static void main(String[] args) {
-        Integer a=127;
-        Integer b=127;
+        Integer a=1;
+        Integer b=1;
 
-        Integer c=128;
-        Integer d=128;
+        Integer c=2;
+        Integer d=2;
 
         System.out.println(a==b);
         System.out.println(c==d);
