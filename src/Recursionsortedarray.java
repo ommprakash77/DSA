@@ -10,7 +10,7 @@ public class Recursionsortedarray {
             }
         }
         public static void main (String[]args){
-            int []arr = {1, 3, 5};
+            int []arr = {1, 3, 8};
             System.out.println(issorted (arr, 0));
 
         }
