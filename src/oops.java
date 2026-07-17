@@ -1,6 +1,6 @@
-public class oops{
-
-    class Pen {
+public class oops {
+    public static void main(String[] args) {
+     class Pen {
         String color;
         String type;
 
@@ -8,9 +8,6 @@ public class oops{
             System.out.println("Writing something...");
         }
     }
-
-    public class Oops {
-        public static void main(String[] args) {
 
             Pen pen1 = new Pen();
 
@@ -20,4 +17,5 @@ public class oops{
             pen1.write();
         }
     }
-}
+
+
