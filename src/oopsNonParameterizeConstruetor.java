@@ -1,4 +1,4 @@
-public class oopsNonParameterConstruetor {
+public class oopsNonParameterizeConstruetor {
     public static void main(String[] args) {
         class student{
             String name;
