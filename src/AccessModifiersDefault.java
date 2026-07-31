@@ -1,3 +1,4 @@
+
 public class AccessModifiersDefault {
     public static void main(String[] args) {
         Package bank;
