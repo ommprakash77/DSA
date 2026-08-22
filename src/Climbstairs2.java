@@ -1,0 +1,25 @@
+public class Climbstairs2 {
+    public static int climbstairs(int n){
+
+        if(n==1 || n==2 || n==3){
+            return n;
+        }
+
+        int a=1;
+        int b=2;
+        int c=3;
+
+        for(int i=3;i<=n;i++){
+            c=a+b;
+
+            int tem_b=b;
+            b=c;
+            a=tem_b;
+        }
+        return c;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(climbstairs(4));
+    }
+}
